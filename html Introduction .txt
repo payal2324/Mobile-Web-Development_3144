@@ -1,0 +1,46 @@
+Web Development
+Three languages used for web dev:
+HTML (structure / content of webpage)
+CSS  (colors, fonts, text sizes, etc, make it pretty!)
+Javascript (talking to database, creating more complicated actions, etc)
+HTML
+Composed of elements (tags)
+Every element has an opening and closing tag
+You can nest elements (put elements inside each other)
+The stuff inside an element is called content
+Content = text or other tags
+Every tag has a relationship with another tag
+Parent, child, siblings, grandchild, grandparent, etc
+The order of your elements is the order it will appear on the screen.
+Software for creating HTML
+Notepad editor (Sublime Text, Atom, Notepad, Notepad++, TextEdit)
+Online: https://repl.it/languages/web_project
+This is the basic template for an HTML5 page.
+Copy and paste this into your html file as a starter.
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+</head>
+<body>
+Content of the document......
+</body>
+</html>
+CSS:
+Used to change the style (look and feel) of your html elements
+Style = font, color, decorations, borders, etc
+Places to put your CSS:
+Directly apply it to the element
+Put it in the <head> section
+Put it in an external CSS file.
+For #1, css can only be applied to the current element
+For #2,#3, you can choose which element you want css applied to
+CSS selectors:
+P {}  -> apply your css to all P elements
+.abc {} -> apply your css to any elements with class=”abc”
+#moon {} -> apply css to the element with id=”moon” (there should only be 1 element named “moon”)
+In Class HTML Problems:
+https://docs.google.com/document/d/1kmPLzyeX9u__UAWj_hZJyQgSaTn0SvUA3UusmzFrOjk/edit?usp=sharing
+CSS Problems:
+https://docs.google.com/document/d/1TQJXuRJ6kl09cdF-lzqLKftt2Iy1gRbybWrEVRGN5Zg/edit
